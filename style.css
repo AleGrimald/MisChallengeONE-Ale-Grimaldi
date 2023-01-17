@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e9e2e2;
+}
+/*------------------------------------------HEADER-----------------------------------------------------*/
+header{
+    width: auto;
+}
+.logo-alura{
+    padding: 20px 10px;
+
+    transition: 3s all;
+}
+.logo-alura:hover{
+    transform: rotateY(360deg);
+}
+/*---------------------------------------MAIN----------------------------------------------------------*/
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+/*Section lado Izquierdo*/
+.contenedor-section{
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+
+/*Div del text area y Textarea*/
+.contenedor-div1{
+    width: auto;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+.txt-area1{
+    width: 90%;
+    margin: auto;
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    resize: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/*Div de los botones Encriptar y Desencriptar*/
+.contenedor-div2{
+    width: auto;
+    margin: 20px auto;
+    padding: 10px 0;
+    text-align: center;
+}
+.btn-encriptar{
+    width: 30%;
+    margin: 10px 10px;
+    padding: 10px;
+    display: inline;
+
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    background: #0a3871;
+    border-color: #D8DFE8;
+    cursor: pointer;
+    transition: 2s all;
+}
+.btn-encriptar:hover{
+    background-color: rgb(185, 102, 0);
+    transform: scale(1.05); 
+}
+
+.btn-desencriptar{
+    width: 30%;
+    margin: 10px 10px;
+    padding: 10px;
+    display: inline;
+
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: #0A3871;
+    background: #D8DFE8;
+    border-color: #0A3871;
+    cursor: pointer;
+    transition: 2s all;
+}
+.btn-desencriptar:hover{
+    color: #D8DFE8;
+    background: rgb(185, 102, 0);
+    border-color: #D8DFE8;
+    transform: scale(1.11); 
+}
+
+/*Section lado Derecho*/
+.contenedor-section2{
+    width: 30%;
+    margin: 20px auto;
+    padding-bottom: 40px;
+    float: right;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+}
+
+.contenedor-div3{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+.img-munieco{
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.contenedor-div4{
+    width: auto;
+    margin: 10px auto;
+    text-align: center;
+}
+.h2-nomensaje{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 20px;    
+}
+.txt-parrado{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+
+/*Panel trasero lado derecho*/
+
+.contenedor-div5{
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.claseH3{
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+.txt-area2{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    display: block;
+    border-radius: 15px;
+    font-size: 16px;
+    resize: none;
+}
+
+
+.contenedor-btnCopiar{
+    width: auto;
+    margin: auto;
+}
+.btn-copiar{
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px 0;
+    display: block;
+    border-radius: 15px;
+    background: #0A3871;
+    color: #D8DFE8;
+    border-color: #D8DFE8;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 2s all;
+}
+.btn-copiar:hover{
+    background-color: rgb(185, 102, 0);
+    transform: scale(1.05); 
+}
+
+
+
+
+
+.ocultar{
+    display: none;
+}
