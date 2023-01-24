@@ -68,13 +68,14 @@ main{
     font-weight: bold;
     border-radius: 15px;
     color: white;
-    background: #0a3871;
+    background: #397cce;
     border-color: #D8DFE8;
     cursor: pointer;
     transition: 2s all;
 }
 .btn-encriptar:hover{
-    background-color: rgb(185, 102, 0);
+    background-color: rgb(10, 84, 102);
+    box-shadow: -10px 0px 25px 15px rgb(122, 223, 248);
     transform: scale(1.05); 
 }
 
@@ -95,7 +96,8 @@ main{
 }
 .btn-desencriptar:hover{
     color: #D8DFE8;
-    background: rgb(185, 102, 0);
+    background-color: rgb(10, 84, 102);
+    box-shadow: 10px 0px 25px 15px rgb(122, 223, 248);
     border-color: #D8DFE8;
     transform: scale(1.11); 
 }
@@ -184,14 +186,14 @@ main{
     border-radius: 15px;
     background: #2e0a719c;
     color: #aaa0c5;
-    box-shadow: 0px 0px 15px 10px rgba(193, 160, 230, 0.952);
     border-color: rgba(181, 125, 245, 0.952);
     font-size: 16px;
     font-weight: bold;
     transition: 2s all;
 }
 .btn-copiar:hover{
-    background-color: rgb(185, 102, 0);
+    background-color: rgba(55, 0, 185, 0.801);
+    box-shadow: 0px 0px 25px 10px rgb(159, 92, 235);
     transform: scale(1.05); 
 }
 
