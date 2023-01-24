@@ -27,9 +27,9 @@ function mostrarElementos(){
 }
 
 
-//------------------FUNCION CAPTURAR TECTO DE TEXTAREA
+//------------------FUNCION CAPTURAR TEXTO DE TEXTAREA
 function capturarTexto(){
-    let txtEntrada = document.querySelector(".txt-area1").value; 
+    let txtEntrada = document.querySelector(".txt-area1").value;
     return txtEntrada;
 }
 
@@ -112,16 +112,28 @@ function mostrarAlCopiar(){
 }
 
 
-//------------------FUNCIONES DE EJECUCION*/
+//------------------FUNCIONES DE EJECUCION
 function mostrarResultadoEnc(){
-    ocultarElementos();
-    mostrarElementos();  
-    resultado.textContent = encriptarTexto(capturarTexto())
+    if (capturarTexto()!= "") {
+        ocultarElementos();
+        mostrarElementos();
+        resultado.textContent = encriptarTexto(capturarTexto());
+        textoOriginal.value="";
+    } else {
+        alert("Ingresa un texto para encriptar");
+    }  
+    
 }
+
 function mostrarResultadoDes(){
-    ocultarElementos();
-    mostrarElementos();  
-    resultado.textContent = desencriptarTexto(capturarTexto())
+    if (capturarTexto() != "") {
+        ocultarElementos();
+        mostrarElementos();  
+        resultado.textContent = desencriptarTexto(capturarTexto());
+        textoOriginal.value="";
+    } else {
+        alert("Ingrese un texto para desencriptar");
+    }
 }
 
 
