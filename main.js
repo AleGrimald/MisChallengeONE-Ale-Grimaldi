@@ -27,7 +27,7 @@ function mostrarElementos(){
 }
 
 
-//------------------FUNCION CAPTURAR TECTO DE TEXTAREA
+//------------------FUNCION CAPTURAR TEXTO DE TEXTAREA
 function capturarTexto(){
     let txtEntrada = document.querySelector(".txt-area1").value; 
     return txtEntrada;
@@ -112,7 +112,7 @@ function mostrarAlCopiar(){
 }
 
 
-//------------------FUNCIONES DE EJECUCION*/
+//------------------FUNCIONES DE EJECUCION
 function mostrarResultadoEnc(){
     ocultarElementos();
     mostrarElementos();  

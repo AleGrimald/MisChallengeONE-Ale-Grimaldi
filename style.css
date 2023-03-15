@@ -167,7 +167,7 @@ main{
     resize: none;
 }
 
-
+/* BOTON COPIAR y CONTENEDOR DIV*/
 .contenedor-btnCopiar{
     width: auto;
     margin: auto;
@@ -192,7 +192,7 @@ main{
 
 
 
-
+/* Clase ocultar*/
 
 .ocultar{
     display: none;
