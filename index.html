@@ -16,7 +16,7 @@
     <main>
         <section class="contenedor-section">
             <div class="contenedor-div1">
-                <textarea name="" cols="20" rows="17" required placeholder="Ingresa el mensaje que deseas encriptar" class="txt-area1" id="txt-area1" autofocus></textarea>
+                <textarea name="" cols="" rows="" required placeholder="Ingresa el mensaje que deseas encriptar" class="txt-area1" id="txt-area1" autofocus></textarea>
             </div>
 
             <div class="contenedor-div2">
@@ -26,29 +26,27 @@
         </section>
 
         <section class="contenedor-section2">
-            <div class="contenedor-div3">
-                <img src="Recursos/img/Muñeco.png" alt="imagen munieco alura" class="img-munieco">
+            <div class="contendor__before">
+                <div class="contenedor-div3">
+                    <img src="Recursos/img/Muñeco.png" alt="imagen munieco alura" class="img-munieco">
+                </div>
+    
+                <div class="contenedor-div4">
+                    <h2 class="h2-nomensaje">Ningun mensaje fue encontrado</h2>
+                    <p class="txt-parrado">Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
             </div>
-
-            <div class="contenedor-div4">
-                <h2 class="h2-nomensaje">Ningun mensaje fue encontrado</h2>
-                <p class="txt-parrado">Ingresa el texto que deseas encriptar o desencriptar</p>
-            </div>
-
-
-
-            <div class="contenedor-div5">
-                <h3 class="claseH3 ocultar">Mensaje Encriptado</h3>
-                <textarea class="txt-area2 ocultar" cols="5" rows="15" readonly></textarea>
-
-            </div>
-            <div class="contenedor-btnCopiar">
-                <input type="button" value="Copiar" class="btn-copiar ocultar">
+            
+            <div class="contenedor__after ocultar">
+                <div class="contenedor-div5">
+                    <h3 class="claseH3">Mensaje Encriptado</h3>
+                    <textarea class="txt-area2" cols="5" rows="14" readonly></textarea>
+                </div>
+                <div class="contenedor-btnCopiar">
+                    <input type="button" value="Copiar" class="btn-copiar">
+                </div>
             </div>
         </section>
-
-
-
     </main>
 
     <script src="main.js"></script>

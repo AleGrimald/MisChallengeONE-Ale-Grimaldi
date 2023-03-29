@@ -4,7 +4,8 @@ let btnCopiar = document.querySelector(".btn-copiar");
 
 let imgMunieco = document.querySelector(".img-munieco");
 let txtH2 = document.querySelector(".h2-nomensaje");
-let txtParrafo1 = document.querySelector(".txt-parrado")
+let txtParrafo1 = document.querySelector(".txt-parrado");
+let divBefore = document.querySelector(".contendor__before");
 let resultado = document.querySelector(".txt-area2");
 let textoOriginal = document.querySelector(".txt-area1");
 
@@ -15,15 +16,11 @@ function ocultarElementos(){
     imgMunieco.classList.add("ocultar");
     txtH2.classList.add("ocultar");
     txtParrafo1.classList.add("ocultar");
+    divBefore.classList.add("ocultar");
 }
 function mostrarElementos(){
-    let h3 = document.querySelector(".claseH3");
-    let btnCopiar = document.querySelector(".btn-copiar");
-    let txtarea2 = document.querySelector(".txt-area2");
-
-    h3.classList.remove("ocultar");
-    btnCopiar.classList.remove("ocultar");
-    txtarea2.classList.remove("ocultar");
+    let divAfter = document.querySelector(".contenedor__after");
+    divAfter.classList.remove("ocultar");
 }
 
 
@@ -97,18 +94,15 @@ function capturarTexto2(){
 }
 
 function ocultarAlCopiar(){
+    let divBefore = document.querySelector(".contendor__before");
+    divBefore.classList.remove("ocultar");
     imgMunieco.classList.remove("ocultar");
     txtH2.classList.remove("ocultar");
     txtParrafo1.classList.remove("ocultar");
 }
 function mostrarAlCopiar(){
-    let h3 = document.querySelector(".claseH3");
-    let btnCopiar = document.querySelector(".btn-copiar");
-    let txtarea2 = document.querySelector(".txt-area2");
-
-    h3.classList.add("ocultar");
-    btnCopiar.classList.add("ocultar");
-    txtarea2.classList.add("ocultar");
+    let divAfter = document.querySelector(".contenedor__after");
+    divAfter.classList.add("ocultar");
 }
 
 
